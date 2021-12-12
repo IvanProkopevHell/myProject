@@ -7,12 +7,12 @@
 
 import Foundation
 
-struct Tile {
+class Tile {
     var lenght: Float16 = 0
     var width: Float16 = 0
 }
 
-struct Wall {
+class Wall {
     var height: Float16 = 0
     var widht: Float16 = 0
 }
